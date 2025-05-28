@@ -1,10 +1,17 @@
-[![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
-[![website](https://img.shields.io/website-up-down-green-red/http/kidsgoserver.com/.svg?label=online-go)](https://kidsgoserver.com/)
+The real repo uses a submodule that is located at: online-go.com, which includes another submodule at: online-go.com/submodules/goban. Due to limitations in this platform, submodules are not supported, so the code has been manually added to this coding challenge. The main submodule is located at this repo: https://github.com/online-go/online-go.com
 
-# KidsGoServer.com source code
+There are 2 bugs with the hint feature, and your task is to fix these bugs!
 
-This repository contains the source code for web client used by [KidsGoServer.com](https://kidsgoserver.com).
+The hint button is found on this page in the bottom left corner: "/learn-to-play/8/problems/capturing/1"
 
-# Contributing
+1. Bug 1: Clicking the hint button only shows the correct next move (green squares on the board), but not the wrong next move (red squares on the board)
+2. Bug 2: Clicking the hint button a second time should hide the colored square hints on the board, but nothing happens when it's clicked a second time
 
-Feel like making some changes? Excellent! See the [Contributing guide](./CONTRIBUTING.md).
+TODO:
+
+Add a gif here and/or images showing the problem
+
+Also show a gif of what successfully fixing the bugs does!
+
+
+
