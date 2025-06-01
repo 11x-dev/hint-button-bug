@@ -1,0 +1,7 @@
+{
+  "tasks": {
+    "start": {
+      "command": "yarn install && npm run dev"
+    }
+  }
+}
