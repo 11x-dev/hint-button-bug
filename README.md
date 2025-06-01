@@ -1,17 +1,5 @@
-The real repo uses a submodule that is located at: online-go.com, which includes another submodule at: online-go.com/submodules/goban. Due to limitations in this platform, submodules are not supported, so the code has been manually added to this coding challenge. The main submodule is located at this repo: https://github.com/online-go/online-go.com
+First, locate the file that contains the hint button, one simple way is to right click the hint button, then click inspect.  This will automatically show you the html of that in the browser.
+Now let's search for "bottom-graphic" in our IDE.  You'll notice the same className is in both Lesson.tsx and Puzzles.tsx.  Upon further inspection, you'll find that the hint button is located inside the Puzzles.tsx file.  
 
-There are 2 bugs with the hint feature, and your task is to fix these bugs!
+![Hint button finding in codebase](<Hint button annotation finding it in the codebase 5_31_2025.png>)
 
-The hint button is found on this page in the bottom left corner: "/learn-to-play/8/problems/capturing/1"
-
-1. Bug 1: Clicking the hint button only shows the correct next move (green square(s) on the board), but not the wrong next move (red square(s) on the board)
-2. Bug 2: Clicking the hint button a second time is not hiding the green and red squares on the board
-
-You'll know you solved the bugs when the following happens:
-
-1. Clicking the hint button shows both green and red squares
-2. Clicking the hint button while the green and red squares are visible properly removes them
-
-![Hint button properly showing red squares on board](<Hint button annotation describing red square showing up as well 5_31_2025.png>)
-
-![Hint button properly hiding squares on board](<Hint button annotation hiding squares on board 5_31_2025.png>)
