@@ -4,14 +4,14 @@ There are 2 bugs with the hint feature, and your task is to fix these bugs!
 
 The hint button is found on this page in the bottom left corner: "/learn-to-play/8/problems/capturing/1"
 
-1. Bug 1: Clicking the hint button only shows the correct next move (green squares on the board), but not the wrong next move (red squares on the board)
-2. Bug 2: Clicking the hint button a second time should hide the colored square hints on the board, but nothing happens when it's clicked a second time
+1. Bug 1: Clicking the hint button only shows the correct next move (green square(s) on the board), but not the wrong next move (red square(s) on the board)
+2. Bug 2: Clicking the hint button a second time is not hiding the green and red squares on the board
 
-TODO:
+You'll know you solved the bugs when the following happens:
 
-Add a gif here and/or images showing the problem
+1. Clicking the hint button shows both green and red squares
+2. Clicking the hint button while the green and red squares are visible properly removes them
 
-Also show a gif of what successfully fixing the bugs does!
+![Hint button properly showing red squares on board](<Hint button annotation describing red square showing up as well 5_31_2025.png>)
 
-
-
+![Hint button properly hiding squares on board](<Hint button annotation hiding squares on board 5_31_2025.png>)
