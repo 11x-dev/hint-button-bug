@@ -26,6 +26,10 @@ If you want to try opening the preview in CodeSandbox (perhaps you have a large 
 
 ![Codesandbox preview](https://res.cloudinary.com/dxq77puhi/image/upload/v1748892947/Codesandbox_18888_preview_annotation_6_2_2025_jlkur4.png)
 
+***Adjusting Theme***
+
+You may want to change the default theme in CodeSandbox. Click the Gear icon ("Manage" when hovered) in the bottom left corner -> "Themes" -> "Color Theme" 
+
 ***Coding Challenge***:
 
 The real repo uses a submodule that is located at: online-go.com, which includes another submodule at: online-go.com/submodules/goban. Due to limitations in this platform, submodules are not supported, so the code has been manually added. The main "online-go.com" submodule can be found at: https://github.com/online-go/online-go.com
