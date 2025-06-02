@@ -34,17 +34,19 @@ You may want to change the default theme in CodeSandbox. Click the Gear icon ("M
 
 The real repo uses a submodule that is located at: online-go.com, which includes another submodule at: online-go.com/submodules/goban. Due to limitations in this platform, submodules are not supported, so the code has been manually added. The main "online-go.com" submodule can be found at: https://github.com/online-go/online-go.com
 
-There are 2 bugs with the hint feature, and your task is to fix these bugs!
-
-The hint button is found on this page in the bottom left corner: "/learn-to-play/8/problems/capturing/1"
+There are 2 bugs with the hint feature:
 
 1. Bug 1: Clicking the hint button only shows the correct next move (green square(s) on the board), but not the wrong next move (red square(s) on the board)
 2. Bug 2: Clicking the hint button a second time is not hiding the green and red squares on the board
+
+The hint button is found on this page in the bottom left corner: "/learn-to-play/8/problems/capturing/1"
 
 You'll know you solved the bugs when the following happens:
 
 1. Clicking the hint button shows both green and red squares
 2. Clicking the hint button while the green and red squares are visible properly removes them
+
+This was a real bug from a real production codebase!  You get practice solving real problems, instead of solving leetcode or other simplified / designed problems that AI can easily solve.  Good luck, and enjoy!  
 
 ![Hint button showing red squares on board](https://res.cloudinary.com/dxq77puhi/image/upload/v1748834595/Hint_button_annotation_describing_red_square_showing_up_as_well_5_31_2025_dnulog.png)
 
