@@ -8,6 +8,12 @@ Use the following command from the root of the project (where you should be by d
 yarn install && npm run dev
 ```
 
+If the server just needs to be started, instead of the yarn install portion, you can simply do:
+
+```
+npm run dev
+```
+
 ![Codesandbox setup](https://res.cloudinary.com/dxq77puhi/image/upload/v1748840199/Codesandbox_terminal_navigation_6_1_2025_fyccxv.png)
 
 Viewing Website:
