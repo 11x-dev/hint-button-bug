@@ -18,7 +18,7 @@ npm run dev
 
 ***Viewing Website***:
 
-Assuming the above succeeded and the dev server is running, you'll want to view the website in a separate tab, as the preview will likely be either too small, or appear too squished.  First, locate the port the server is running on, by clicking "PORTS" which is to the right of "TERMINAL" Locate the port that ends with "18888".  Right click it, and click "Open in Browser" -> Click "Open" to confirm.
+Assuming the above succeeded and the dev server is running, you'll want to view the website in a separate tab, as the preview will likely be either too small, or appear too squished.  First, locate the port the server is running on, by clicking "PORTS" which is to the right of "TERMINAL". Locate the port that ends with "18888".  Right click it, and click "Open in Browser" -> Click "Open" to confirm.
 
 ![Codesandbox port 18888](https://res.cloudinary.com/dxq77puhi/image/upload/v1748892742/18888_port_11xdev_codesandbox_annotation_6_2_2025_xilnrp.png)
 
