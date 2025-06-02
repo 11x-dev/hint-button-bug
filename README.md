@@ -12,6 +12,6 @@ You'll know you solved the bugs when the following happens:
 1. Clicking the hint button shows both green and red squares
 2. Clicking the hint button while the green and red squares are visible properly removes them
 
-![Hint button showing red squares on board](https://github.com/ScriabinOp8No12/hint-button-bug-11xdev/blob/main/Hint%20button%20annotation%20describing%20red%20square%20showing%20up%20as%20well%205_31_2025.png)
+![Hint button showing red squares on board](https://res.cloudinary.com/dxq77puhi/image/upload/v1748834595/Hint_button_annotation_describing_red_square_showing_up_as_well_5_31_2025_dnulog.png)
 
 ![Hint button hiding squares on board](https://github.com/ScriabinOp8No12/hint-button-bug-11xdev/blob/main/Hint%20button%20annotation%20hiding%20squares%20on%20board%205_31_2025.png)
