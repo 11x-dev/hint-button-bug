@@ -48,6 +48,6 @@ You'll know you solved the bugs when the following happens:
 
 This was a real bug from a real production codebase!  You get practice solving real problems, instead of solving leetcode or other simplified / designed problems that AI can easily solve.  Good luck, and enjoy!  
 
-![Hint button showing red squares on board](https://res.cloudinary.com/dxq77puhi/image/upload/v1748834595/Hint_button_annotation_describing_red_square_showing_up_as_well_5_31_2025_dnulog.png)
+![Hint button showing red squares on board](https://res.cloudinary.com/dxq77puhi/image/upload/v1749016613/Hint_bug_screenshot_1_11xdev_kfntqf.png)
 
-![Hint button hiding squares on board](https://res.cloudinary.com/dxq77puhi/image/upload/v1748834686/Hint_button_annotation_hiding_squares_on_board_5_31_2025_nbm8m0.png)
+![Hint button hiding squares on board](https://res.cloudinary.com/dxq77puhi/image/upload/v1749016615/Hint_bug_screenshot_2_11xdev_tbasui.png)
