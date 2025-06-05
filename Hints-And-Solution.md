@@ -6,7 +6,7 @@ For a hint:
 git checkout hint
 ```
 
-For a solution:
+For a solution, instead use:
 
 ```
 git checkout solution
