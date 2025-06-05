@@ -10,7 +10,7 @@
 
 ![showHint function](https://res.cloudinary.com/dxq77puhi/image/upload/v1748894576/showHint_function_submodule_missing_method_6_2_2025_vfatsu.png)
 
-3. Let's search for this missing method. We find that it's inside the MoveTree file inside our submodule, which is coded in instead of being a submodule.  We notice that the "findBranchesWithWrongAnswer()" method is missing.  How can we find this missing code?  Think about it for a little before proceeding.
+3. Let's search for this related method. We find that it's inside the MoveTree file inside our submodule (remember that our submodule is coded in and not actually a submodule).  Within this file, we notice that the "findBranchesWithWrongAnswer()" method is missing.  How can we find this missing code?  Think about it for a little before proceeding.
 
 ![Submodule missing method search](https://res.cloudinary.com/dxq77puhi/image/upload/v1748895258/Finding_submodule_method_search_codesandbox_6_2_2025_vwgku0.png)
 
