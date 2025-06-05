@@ -1,15 +1,18 @@
 ***Initial Setup***
+*******************
 
 Codesandbox should automatically install the packages and start the dev server.  You'll want to view this website in a separate tab. In the bottom portion, you should see a terminal open.  First, locate the port the server is running on, by clicking "PORTS" which is to the right of "TERMINAL". Locate the port that ends with "18888".  Right click it, and click "Open in Browser" -> Click "Open" to confirm.
 
 If you had any issues, please refer to these detailed instructions with screenshots [here](/CodeSandbox-Instructions.md) 
 
 ***Hints and Solution***
+************************
 
 If you are stuck and need a hint or want to see a possible solution, navigate to this document [here](/Hints-And-Solutions.md)
 If you think there are better hint(s) or there are alternative or better solutions, please email me at nharwit@gmail.com
 
-***Coding Challenge***:
+***Coding Challenge***
+**********************
 
 The real codebase uses a submodule that is located at online-go.com, which includes another submodule at online-go.com/submodules/goban. Due to limitations in this platform, submodules are not supported, so the code has been manually added. The main online-go.com submodule can be found at https://github.com/online-go/online-go.com
 
