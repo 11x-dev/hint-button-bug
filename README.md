@@ -11,6 +11,7 @@ If you had any issues, please refer to these detailed instructions with screensh
 ************************
 
 If you are stuck and need a hint or want to see a possible solution, navigate to this document [here](/Hints-And-Solutions.md)
+
 If you think there are better hint(s) or there are alternative or better solutions, please email me at nharwit@gmail.com
 
 **********************
