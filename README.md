@@ -4,6 +4,22 @@ Codesandbox should automatically install the packages and start the dev server. 
 
 If you had any issues, please refer to the detailed instructions with screenshots [here](/CodeSandbox-Instructions.md) 
 
+***Hints and Solution***
+
+If you are stuck and need a hint or want to see a possible solution, inside your terminal, use the following commands.
+
+For hints:
+
+```
+git checkout hint
+```
+
+For a solution:
+
+```
+git checkout solution
+```
+
 ***Coding Challenge***:
 
 The real repo uses a submodule that is located at: online-go.com, which includes another submodule at: online-go.com/submodules/goban. Due to limitations in this platform, submodules are not supported, so the code has been manually added. The main "online-go.com" submodule can be found at: https://github.com/online-go/online-go.com
