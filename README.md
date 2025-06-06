@@ -12,7 +12,7 @@ If you had any issues, please refer to these detailed instructions with screensh
 
 If you are stuck and need a hint or want to see a possible solution, navigate to this document [here](/Hints-And-Solutions.md)
 
-If you think there are better hint(s) or there are alternative or better solutions, please email me at nharwit@gmail.com
+If you think there are better hints or there are alternative or better solutions, please email me at nharwit@gmail.com
 
 **********************
 ***Coding Challenge***
@@ -32,7 +32,7 @@ The hint button is found on this page in the bottom left corner: "/learn-to-play
 1. Clicking the hint button shows both green and red squares
 2. Clicking the hint button while the green and red squares are visible properly removes them
 
-This was a real bug from a real production codebase!  You get practice solving real problems, instead of solving leetcode or other simplified / designed problems that AI can easily solve.  Feel free to use any resources you want on this coding challenge, have fun!  
+This was a real bug from a real production codebase!  Feel free to use any resources you want on this coding challenge, have fun!  
 
 ![Hint button showing red squares on board](https://res.cloudinary.com/dxq77puhi/image/upload/v1749016613/Hint_bug_screenshot_1_11xdev_kfntqf.png)
 
