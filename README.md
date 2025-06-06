@@ -27,7 +27,9 @@ There are 2 bugs with the hint feature:
 
 The hint button is found on this page in the bottom left corner: "/learn-to-play/8/problems/capturing/1"
 
+**********************
 **Requirements**
+**********************
 
 1. Clicking the hint button shows both green and red squares
 2. Clicking the hint button while the green and red squares are visible properly removes them
@@ -37,3 +39,9 @@ This was a real bug from a real production codebase!  Feel free to use any resou
 ![Hint button showing red squares on board](https://res.cloudinary.com/dxq77puhi/image/upload/v1749016613/Hint_bug_screenshot_1_11xdev_kfntqf.png)
 
 ![Hint button hiding squares on board](https://res.cloudinary.com/dxq77puhi/image/upload/v1749016615/Hint_bug_screenshot_2_11xdev_tbasui.png)
+
+************************
+***Estimated Time***
+************************
+
+Estimated time for this bug fix is 1 - 5 hours
