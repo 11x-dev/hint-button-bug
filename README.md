@@ -22,17 +22,17 @@ The real codebase uses a submodule that is located at online-go.com, which inclu
 
 There are 2 bugs with the hint feature:
 
-1. Bug 1: Clicking the hint button only shows the correct next move (green square(s) on the board), but not the wrong next move (red square(s) on the board)
+1. Bug 1: Clicking the hint button only shows the correct next move (green squares on the board), but not the wrong next move (red squares on the board)
 2. Bug 2: Clicking the hint button a second time is not hiding the green and red squares on the board
 
 The hint button is found on this page in the bottom left corner: "/learn-to-play/8/problems/capturing/1"
 
-You'll know you solved the bugs when the following happens:
+**Requirements**
 
-1. Clicking the hint button shows both green and red square(s)
-2. Clicking the hint button while the green and red square(s) are visible properly removes them
+1. Clicking the hint button shows both green and red squares
+2. Clicking the hint button while the green and red squares are visible properly removes them
 
-This was a real bug from a real production codebase!  You get practice solving real problems, instead of solving leetcode or other simplified / designed problems that AI can easily solve.  Have fun!  
+This was a real bug from a real production codebase!  You get practice solving real problems, instead of solving leetcode or other simplified / designed problems that AI can easily solve.  Feel free to use any resources you want on this coding challenge, have fun!  
 
 ![Hint button showing red squares on board](https://res.cloudinary.com/dxq77puhi/image/upload/v1749016613/Hint_bug_screenshot_1_11xdev_kfntqf.png)
 
