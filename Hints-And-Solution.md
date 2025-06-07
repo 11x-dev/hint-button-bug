@@ -1,4 +1,4 @@
-Inside your terminal, use the following command(s), then open up the README.md files.
+Inside your terminal, navigate to the hint or solution branch, then open up the README.md files.
 
 For a hint:
 
@@ -6,7 +6,7 @@ For a hint:
 git checkout hint
 ```
 
-For a solution, instead use:
+For a solution:
 
 ```
 git checkout solution
