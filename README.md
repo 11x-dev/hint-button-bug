@@ -38,7 +38,7 @@ Estimated time for this bug fix is 30 minutes - 3 hours.
 ***Hints and Solution***
 ************************
 
-If you need a hint or want to see a possible solution, navigate to this document [here](/Hints-And-Solutions.md)
+If you need a hint or want to see a possible solution, navigate to this document [here](/Hints-And-Solution.md)
 
 **********************
 ***Coding Challenge***
