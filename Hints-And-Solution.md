@@ -1,4 +1,4 @@
-Inside your CodeSandbox terminal, use the following command(s), then open up the README.md files.
+Inside your terminal, use the following command(s), then open up the README.md files.
 
 For a hint:
 
@@ -12,7 +12,7 @@ For a solution, instead use:
 git checkout solution
 ```
 
-If you are having issues viewing these with the above commands, you can navigate to the following github branches in your browser instead:
+Alternatively, you can also navigate to the following github branches in your browser instead:
 
 For a hint, scroll down to the README portion of this page:
 
