@@ -2,38 +2,43 @@
 ***Initial Setup***
 *******************
 
-Clone the repo
+Getting setup locally only takes a few minutes!
+
+1. Clone the repo
 
 ```
 git clone https://github.com/ScriabinOp8No12/hint-button-bug-11xdev.git
 ```
 
-Navigate to the root of the project:
+2. Navigate to the root of the project:
 
 ```
 cd hint-button-bug-11xdev
 ```
 
-Install packages and start the frontend server:
+3. Install packages and start the frontend server:
 
 ```
 yarn install && npm run dev
 ```
 
-View localhost on port 18888
+4. View the website in your browser
 
 ```
-localhost:18888
+http://localhost:18888/
 ```
 
+************************
+***Estimated Time***
+************************
+
+Estimated time for this bug fix is 30 minutes - 3 hours.
 
 ************************
 ***Hints and Solution***
 ************************
 
-If you are stuck and need a hint or want to see a possible solution, navigate to this document [here](/Hints-And-Solutions.md)
-
-If you think there are better hints or there are alternative or better solutions, please email me at nharwit@gmail.com
+If you need a hint or want to see a possible solution, navigate to this document [here](/Hints-And-Solutions.md)
 
 **********************
 ***Coding Challenge***
@@ -43,20 +48,14 @@ The real codebase uses a submodule that is located at online-go.com, which inclu
 
 There are 2 bugs with the hint feature:
 
-1. Bug 1: Clicking the hint button only shows the correct next move (green squares on the board), but not the wrong next move (red squares on the board)
-2. Bug 2: Clicking the hint button a second time is not hiding the green and red squares on the board
+Bug 1: Clicking the hint button only shows the correct next move (green squares on the board), but not the wrong next move (red squares on the board)
+Bug 2: Clicking the hint button a second time is not hiding the green and red squares on the board
 
 The hint button is found on this page in the bottom left corner: 
 
 ```
-localhost:18888/learn-to-play/8/problems/capturing/1"
+http://localhost:18888/learn-to-play/8/problems/capturing/1
 ```
-
-************************
-***Estimated Time***
-************************
-
-Estimated time for this bug fix is 30 minutes - 2 hours.  If you are stuck for more than 30 minutes, you could consider looking at the hint.  
 
 **********************
 **Requirements**
