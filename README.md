@@ -49,6 +49,7 @@ The real codebase uses a submodule that is located at online-go.com, which inclu
 There are 2 bugs with the hint feature:
 
 Bug 1: Clicking the hint button only shows the correct next move (green squares on the board), but not the wrong next move (red squares on the board)
+
 Bug 2: Clicking the hint button a second time is not hiding the green and red squares on the board
 
 The hint button is found on this page in the bottom left corner: 
