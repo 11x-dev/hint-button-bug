@@ -52,9 +52,3 @@ Here's the MoveTree file within the 2nd submodule in case you had issues finding
 ***Conclusion***
 
 First, find the file that is causing the bug, verify that the bug exists and that you can replicate it, then notice there's a Typescript error for a missing method.  Brainstorm solutions, and come to the conclusion that we probably had an out of date submodule, then use this information to look at the submodule, and add the missing code in.
-
-Outside of CodeSandbox where you have access to submodules, you would simply use the following command to update your submodule to the latest code from Github:
-
-```
-git submodule update --recursive
-```
