@@ -59,10 +59,14 @@ NOTE: Normally you can use a shortcut to search for methods directly, but unfort
 ***Conclusion***
 ************************
 
-This bug actually happened to me, and I was very confused when I got the hint button bug.  I usually program on my Windows machine, but use Mac briefly for mobile testing.  The issue is I didn't update my submodule on my Mac, despite pulling the most recent code from Github.  Unlike regular code, submodules don't automatically update when you git pull. Remember that you generally want to keep your submodules up to date, so things don't break unexpectedly like in this case.  For me, I was able to run the following command to update the submodule instead of having to manually find the missing code:
+This bug actually happened to me in this project, and I was very confused when I got the hint button bug. I usually program on my Windows machine, but use Mac briefly for mobile testing. The issue was that my submodule was out of date on my Mac, despite pulling the most recent code from Github. Unlike regular code, submodules don't automatically update when you git pull.
+
+In this coding challenge, we've hardcoded the submodule code to avoid compatibility issues, but the missing method represents what happens when submodules get out of sync. In real projects, you can often fix this with:
 
 ```
 git submodule update --recursive
 ```
+
+Remember to keep your submodules up to date so things don't break unexpectedly.
 
 Great work, and have fun in the next coding challenge! 
