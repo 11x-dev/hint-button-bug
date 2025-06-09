@@ -1,10 +1,10 @@
 ***Hint***
 
-If you found the file with the hint button (src/views/Lessons/Puzzles.tsx) and figured out that the React component looks fine and everything SHOULD work, you are correct! 
+If you found the file with the hint button (src/views/Lessons/Puzzles.tsx) and figured out that the React component looks fine and everything SHOULD work, you are correct!
 
-The issue is that we are calling the findBranchesWithWrongAnswer() method from the submodule code and it doesn't exist. 
+The issue is that we are calling the findBranchesWithWrongAnswer() method from the integrated online-go.com code and it doesn't exist.
 
-Remember that the submodule in this coding challenge is coded in.  You can find the main submodule and the inner submodules at: https://github.com/online-go/online-go.com
+The online-go.com code has been hardcoded into this coding challenge. You can find the original source code and its inner submodules at: https://github.com/online-go/online-go.com
 
-With this knowledge, figure out where the missing method is, and then add the code back in. 
+With this knowledge, figure out where the missing method should be located, and then add the code back in.
 
