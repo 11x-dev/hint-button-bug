@@ -1,4 +1,4 @@
-Inside your terminal, navigate to the hint or solution branch, then open up the README.md files.
+Inside your terminal, navigate to the hint or solution branch, then open up the README.md file.
 
 For a hint:
 
@@ -22,4 +22,6 @@ https://github.com/ScriabinOp8No12/hint-button-bug-11xdev/tree/hint
 
 For a solution, scroll down to the README portion of this page:
 
+```
 https://github.com/ScriabinOp8No12/hint-button-bug-11xdev/tree/solution
+```
