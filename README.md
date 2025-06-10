@@ -53,7 +53,7 @@ NOTE: Normally you can use a shortcut on a Github repo to search for methods dir
 6. Alternatively, you could copy paste in the entire MoveTree.ts file.
 7. Verify both bugs are fixed in this branch when testing in your browser!
 
-NOTE: You can view the exact code changes in this PR comparing the solution branch with the main branch: 
+NOTE: You can view the exact code changes in this PR (MoveTree.ts file) comparing the solution branch with the main branch: https://github.com/ScriabinOp8No12/hint-button-bug-11xdev/pull/1/files
 
 ************************
 ***Conclusion***
