@@ -8,8 +8,6 @@
 
 2. Now that we know which file to debug, let's look at the hint button in the JSX portion of our component. We see that the button's onClick is executing the "showHint" function. Once we find that function, we see a Typescript issue where the findBranchesWithWrongAnswer() method does not exist on "MoveTree".  It's not finding the method in the MoveTree.ts file at line 1081.  
 
-To confirm that the method is actually missing, if we are using vscode, we can hold the ctrl key (cmd key for mac), then click on the findBranchesWithCorrectAnswer() method, as it's similar and in the same MoveTree.ts file.  Alternatively, you could use ctrl + p (cmd + p for mac) and type in movetree.  Then click the MoveTree.ts file and verify that our findBranchesWithWrongAnswer() method does not exist there.
-
 ![showHint method in JSX](https://res.cloudinary.com/dxq77puhi/image/upload/v1748894255/Codesandbox_showHint_1_6_2_2025_vil7yo.png)
 
 ![showHint function](https://res.cloudinary.com/dxq77puhi/image/upload/v1748894576/showHint_function_submodule_missing_method_6_2_2025_vfatsu.png)
@@ -18,7 +16,7 @@ To confirm that the method is actually missing, if we are using vscode, we can h
 
 ![Submodule missing method search](https://res.cloudinary.com/dxq77puhi/image/upload/v1748895258/Finding_submodule_method_search_codesandbox_6_2_2025_vwgku0.png)
 
-4. Let's go look at that code in the submodule.  First, navigate to the main submodule "online-go.com": https://github.com/online-go/online-go.com
+4. The method is missing from the MoveTree.ts file, which is within the inner "goban" submodule.  So let's go look at that code in the submodule.  First, navigate to the main submodule "online-go.com" in your browser: https://github.com/online-go/online-go.com
 
 Click "Submodules" -> "Goban", and in the search field that says "Go to file", type in "MoveTree.ts", now search the page for "findBranchesWithWrongAnswer()" which is the method we were missing. You should see it just below the "findBranchesWithCorrectAnswer()", around line 1099.
 
@@ -29,7 +27,7 @@ Here's the MoveTree file within the 2nd submodule in case you had issues finding
 ![online-go/goban movetree search](https://res.cloudinary.com/dxq77puhi/image/upload/v1748907891/goban_movetree.ts_search_ye2mhv.png)
 ![online-go/goban find branch with wrong answer found](https://res.cloudinary.com/dxq77puhi/image/upload/v1748907994/findbranches_with_wrong_answer_goban_submodule_6_2_2025_mfxkbv.png)
 
-NOTE: Normally you can use a shortcut to search for methods directly, but unfortunately, searching for the method in the parent submodule, online-go.com won't show the method in the inner submodules.
+NOTE: Normally you can use a shortcut on a Github repo to search for methods directly.  Unfortunately, you'll have trouble finding methods that are in the inner submodules when searching from the parent submodule.
 
 5. Add the missing method, and associated function to the MoveTree.ts file.  Here's the code you'll need to add.  
 
@@ -52,8 +50,8 @@ NOTE: Normally you can use a shortcut to search for methods directly, but unfort
     }
 ```
 
-6. Alternatively, you could copy paste the entire MoveTree.ts file.
-7. Verify both bugs are fixed when testing on the frontend!
+6. Alternatively, you could copy paste in the entire MoveTree.ts file.
+7. Verify both bugs are fixed when testing in your browser!
 
 ************************
 ***Conclusion***
