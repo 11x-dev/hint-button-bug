@@ -12,10 +12,6 @@
 
 ![showHint function](https://res.cloudinary.com/dxq77puhi/image/upload/v1748894576/showHint_function_submodule_missing_method_6_2_2025_vfatsu.png)
 
-To confirm that the method is actually missing, if we are using vscode, we can hold the ctrl key (cmd key for mac), then click on the findBranchesWithCorrectAnswer() method, as it's similar and in the same MoveTree.ts file.  
-
-Alternatively, you could use ctrl + p (cmd + p for mac) and type in movetree.  Then click the MoveTree.ts file and verify that our findBranchesWithWrongAnswer() method does not exist there.
-
 The online-go.com code has been hardcoded into this coding challenge. You can find the original source code and its inner submodules at: https://github.com/online-go/online-go.com
 
 With this knowledge, figure out where the missing method should be located, and then add the code back in.
