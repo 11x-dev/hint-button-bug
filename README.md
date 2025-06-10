@@ -8,3 +8,4 @@ The online-go.com code has been hardcoded into this coding challenge. You can fi
 
 With this knowledge, figure out where the missing method should be located, and then add the code back in.
 
+![showHint function](https://res.cloudinary.com/dxq77puhi/image/upload/v1748894576/showHint_function_submodule_missing_method_6_2_2025_vfatsu.png)
