@@ -4,6 +4,8 @@
 
 You can view the exact code changes needed to solve this coding challenge here: https://github.com/ScriabinOp8No12/hint-button-bug-11xdev/pull/1/files#diff-34647d18e0b712c9aa16cf1d3b09734bdaf6d36962d384e10e4a5fc38112cd25
 
+This branch contains the bug fix to the hint button - you can test that the functionality works as intended in your browser.   
+
 1. Locate the file that contains the hint button, one simple way is to right click the hint button in the web browser, then click inspect.  This will automatically show you the html for that element in the browser. Now let's search for "bottom-graphic" in our IDE.  You'll notice the same className is in both Lesson.tsx and Puzzles.tsx.  Upon further inspection, you'll find that the hint button is located inside the src/views/Lessons/Puzzles.tsx file.  
 
 ![Hint button finding in codebase](https://res.cloudinary.com/dxq77puhi/image/upload/v1748893572/Hint_button_annotation_finding_it_in_the_codebase_5_31_2025_m0ho5g.png)
