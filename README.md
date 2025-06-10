@@ -1,4 +1,6 @@
+************************
 ***Hint***
+************************
 
 1. Locate the file that contains the hint button, one simple way is to right click the hint button in the web browser, then click inspect.  This will automatically show you the html for that element in the browser. Now let's search for "bottom-graphic" in our IDE.  You'll notice the same className is in both Lesson.tsx and Puzzles.tsx.  Upon further inspection, you'll find that the hint button is located inside the src/views/Lessons/Puzzles.tsx file.  
 
@@ -16,4 +18,4 @@ Alternatively, you could use ctrl + p (cmd + p for mac) and type in movetree.  T
 
 The online-go.com code has been hardcoded into this coding challenge. You can find the original source code and its inner submodules at: https://github.com/online-go/online-go.com
 
-With this knowledge, figure out where the missing method should be located, and then add the missing method back in.
+With this knowledge, figure out where the missing method should be located, and then add the code back in.
