@@ -51,7 +51,9 @@ NOTE: Normally you can use a shortcut on a Github repo to search for methods dir
 ```
 
 6. Alternatively, you could copy paste in the entire MoveTree.ts file.
-7. Verify both bugs are fixed when testing in your browser!
+7. Verify both bugs are fixed in this branch when testing in your browser!
+
+NOTE: You can view the exact code changes in this PR comparing the solution branch with the main branch: 
 
 ************************
 ***Conclusion***
