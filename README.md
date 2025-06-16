@@ -1,5 +1,5 @@
 ************************
-***Solution***
+**Solution**
 ************************
 
 You can view the exact code changes needed to solve this coding challenge here: https://github.com/ScriabinOp8No12/hint-button-bug-11xdev/pull/1/files#diff-34647d18e0b712c9aa16cf1d3b09734bdaf6d36962d384e10e4a5fc38112cd25
@@ -20,11 +20,19 @@ This branch contains the bug fix to the hint button - you can test that the func
 
 ![Submodule missing method search](https://res.cloudinary.com/dxq77puhi/image/upload/v1748895258/Finding_submodule_method_search_codesandbox_6_2_2025_vwgku0.png)
 
-4. The method is missing from the MoveTree.ts file, which is within the inner "goban" submodule.  So let's go look at that code in the submodule.  First, navigate to the main submodule "online-go.com" in your browser: https://github.com/online-go/online-go.com
+4. The method is missing from the MoveTree.ts file, which is within the inner "goban" submodule.  So let's go look at that code in the submodule.  First, navigate to the main submodule "online-go.com" in your browser: 
+
+```
+https://github.com/online-go/online-go.com
+```
 
 Click "Submodules" -> "Goban", and in the search field that says "Go to file", type in "MoveTree.ts", now search the page for "findBranchesWithWrongAnswer()" which is the method we were missing. You should see it just below the "findBranchesWithCorrectAnswer()", around line 1099.
 
-Here's the MoveTree file within the 2nd submodule in case you had issues finding the file: https://github.com/online-go/goban/blob/19f57ea8d2f66b52f06015e67da2cc54df9b4a1c/src/engine/MoveTree.ts
+Here's the MoveTree file within the 2nd submodule in case you had issues finding the file: 
+
+```
+https://github.com/online-go/goban/blob/19f57ea8d2f66b52f06015e67da2cc54df9b4a1c/src/engine/MoveTree.ts
+```
 
 ![online-go submodule Github search](https://res.cloudinary.com/dxq77puhi/image/upload/v1748907606/online_go_submodule_bug_1_6_2_2025_jj5sv0.png)
 ![online-go/goban submodule](https://res.cloudinary.com/dxq77puhi/image/upload/v1748907781/goban_submodule_6_2_2025_fpemgc.png)
@@ -58,12 +66,12 @@ NOTE: Normally you can use a shortcut on a Github repo to search for methods dir
 7. Verify both bugs are fixed in this branch when testing in your browser!
 
 ************************
-***Conclusion***
+**Conclusion**
 ************************
 
-This bug actually happened to me in this project, and I was very confused when I got the hint button bug. I usually program on my Windows machine, but use Mac briefly for mobile testing. The issue was that my submodule was out of date on my Mac, despite pulling the most recent code from Github. Unlike regular code, submodules don't automatically update when you git pull.
+I was very confused when I had this bug happen to me in this project. I usually program on my Windows machine, but sometimes use Mac for mobile testing. The issue was that my Mac had an out of date submodule, despite pulling the most recent code from Github. Unlike regular code, submodules don't automatically update when you git pull.
 
-In this coding challenge, we've hardcoded the submodule code to avoid compatibility issues, but the missing method represents what happens when submodules get out of sync. In real projects, you can often fix this with:
+In this coding challenge, we've integrated the submodule code to avoid compatibility issues, but the missing method represents what happens when submodules get out of sync. In real projects, you can often fix this with:
 
 ```
 git submodule update --recursive
