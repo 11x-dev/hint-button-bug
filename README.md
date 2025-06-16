@@ -1,5 +1,5 @@
 ************************
-***Hint***
+**Hint**
 ************************
 
 1. Locate the file that contains the hint button, one simple way is to right click the hint button in the web browser, then click inspect.  This will automatically show you the html for that element in the browser. Now let's search for "bottom-graphic" in our IDE.  You'll notice the same className is in both Lesson.tsx and Puzzles.tsx.  Upon further inspection, you'll find that the hint button is located inside the src/views/Lessons/Puzzles.tsx file.  
@@ -12,6 +12,6 @@
 
 ![showHint function](https://res.cloudinary.com/dxq77puhi/image/upload/v1748894576/showHint_function_submodule_missing_method_6_2_2025_vfatsu.png)
 
-The online-go.com code has been hardcoded into this coding challenge. You can find the original source code and its inner submodules at: https://github.com/online-go/online-go.com
+The code for the online-go.com submodule has been integrated into this coding challenge. You can find the original source code and its inner submodules at: https://github.com/online-go/online-go.com
 
-With this knowledge, figure out where the missing method should be located, and then add the code back in.
+With this knowledge, figure out where the missing findBranchesWithWrongAnswer() method should be located, and then add the code back in.
