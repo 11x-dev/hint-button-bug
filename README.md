@@ -71,7 +71,7 @@ http://localhost:18888/learn-to-play/8/problems/capturing/1
 1. Clicking the hint button shows both green and red squares
 2. Clicking the hint button while the green and red squares are visible properly removes them
 
-This was a real bug from a real production codebase!  Feel free to use any resources you want on this coding challenge, have fun!  
+This challenge is based on a real bug from a production codebase.  Feel free to use any resources you like while solving it.
 
 Enjoyed the challenge? Give this repo a ⭐️ to help others find it too!
 
