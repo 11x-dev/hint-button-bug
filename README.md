@@ -73,6 +73,8 @@ http://localhost:18888/learn-to-play/8/problems/capturing/1
 
 This was a real bug from a real production codebase!  Feel free to use any resources you want on this coding challenge, have fun!  
 
+Enjoyed the challenge? Give this repo a ⭐️ to help others find it too!
+
 ![Hint button showing red squares on board](https://res.cloudinary.com/dxq77puhi/image/upload/v1749016613/Hint_bug_screenshot_1_11xdev_kfntqf.png)
 
 ![Hint button hiding squares on board](https://res.cloudinary.com/dxq77puhi/image/upload/v1749016615/Hint_bug_screenshot_2_11xdev_tbasui.png)
