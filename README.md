@@ -38,7 +38,7 @@ http://localhost:18888/
 **Estimated Time**
 ************************
 
-Estimated time for this bug fix is 1 - 3 hours.
+Estimated time for this bug fix is 1 - 2 hours.
 
 ************************
 **Hints and Solution**
